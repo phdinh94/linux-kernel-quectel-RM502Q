@@ -17,9 +17,9 @@ CPU max MHz:         3800.0000,
 CPU min MHz:         800.0000,
 BogoMIPS:            5599.85,
 
-- Based on linux kernel version 4.19.254. The base kernel is modifed according to Quectel RM502Q documentations to accomodate Quectel's provided drivers: USB for GSM and CDMA modems (this is just the driver name, the board would work for LTE and 5G) and QMI_WWAN.
-- Quectel provides QMI_WWAN and Gobinet drivers. Only either of them should be use. This repo use QMI_WWAN only.
-- Usage: pull the repo, in the source directory:
+- Based on linux kernel version 4.19.254. The base kernel is modifed according to Quectel RM502Q documentations to accomodate Quectel's provided drivers: USB for GSM and CDMA modems and QMI_WWAN.
+- Quectel provides QMI_WWAN and Gobinet drivers. Only either of them should be used. This repo use QMI_WWAN only.
+- Usage: pull the repo, cd into the source directory, then:
 ```console 
 $ cp ./config-4.19.254-Quectel-Compatible .config
 ```
